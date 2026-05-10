@@ -16,10 +16,6 @@ Experimental results reveal a distinct gap between the requirements for recognit
 
 Statistical reliability was verified through **Leave-k-Out Cross-Validation**, showing that the model's predictive power remains stable even as training data is reduced. Furthermore, by analyzing the distribution of distances, a rejection threshold ($\tau \approx 400$) was established to successfully mitigate the **False Acceptance Rate (FAR)** when presented with subjects outside the training set.
 
-## 4. Repository Structure
-* `accuracy_analysis.m`: Evaluates the relationship between the number of singular values and classification accuracy.
-* `face_reconstruction.m`: Visualizes the progressive reconstruction of images across different ranks ($p$).
-* `cross_validation.m`: Implementation of the Leave-k-Out statistical testing.
 * `eigenfaces_visualizer.m`: Generates and displays the primary principal components.
 * `docs/report.pdf`: Full academic report with mathematical proofs and detailed results.
 
