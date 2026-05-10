@@ -1,9 +1,4 @@
-# SVD-and-PCA-for-face-recognition
-Face Recognition and Image Reconstruction system leveraging Eigenfaces, a method based on SVD and PCA. Features include robust identification under variable illumination, statistical thresholding for biometric security, and Leave-k-Out Cross-Validation for model reliability analysis.
-
-
 # Face Recognition and Reconstruction via Singular Value Decomposition
-
 This repository provides a comprehensive MATLAB implementation of a face recognition and image compression system utilizing **Singular Value Decomposition (SVD)**. The project, conducted on the Yale Face Database, explores the application of linear algebra to high-dimensional datasets, focusing on dimensionality reduction through Principal Component Analysis (PCA).
 
 ## 1. Abstract
